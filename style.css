@@ -1,52 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-  font-family: 'Courier New', Courier, monospace;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
 }
 
 img {
-  width: 100px;
-  height: 100px;
-  display:flex;
-  
+  width: 600px;
 }
 
-.title {
-  font-size: 36px;
-  font-weight: 900;
-}
-
-/* do not edit this footer */
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
   background: #eee;
 }
-.header{
-    display:flex;
-    justify-content: center;
-}
-.images{
-    display:flex;
-    justify-content: center;
-    gap:40px;
-    margin-top:20px
 
-    
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
 }
-.text{
-    text-align: center;
+a{
+     text-decoration: none;
 }
-.number01,.number02,.number03,.number04{
+ul{
+    list-style-type: none;
+}
+.left-links,.right-links{
+    display:flex;
+    gap:10px;
+    margin-right:30px;
+
+}
+a{
+     color:black;
+}
+.header,.footer{
+    display:flex;
+    justify-content: space-between;
+}
+body{
     display:flex;
     flex-direction: column;
+}
+.content{
+    flex:1;
+}
+.content{
+    display:flex;
+    justify-content: center;
     align-items: center;
-    width: 220px;
+    
 
+}
+.encloser{
+    display:flex;
+    flex-direction: column;
+     gap:10px;
+     align-items: center;
+}
+.footer{
+    background-color: darkgray;
 }
 
 
